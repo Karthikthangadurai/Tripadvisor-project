@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width:100%;
+    height: 100%;
+    font-family: "Poppins", sans-serif;
+}
+
+.big__container{
+    width: 75%;
+    height: 100%;
+    margin-left: 12%;
+}
+
+.navbar__s1{
+    margin: 5px;
+    padding: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+.navbar__s1__image{
+    position: relative;
+}
+
+.navbar__s1__image img{
+    width: 5%;
+    height: 5%;
+    margin-top: 11px;
+    cursor: pointer;
+}
+
+.navbar__s1__title{
+    position: absolute;
+    top: 0;
+    left: 7%;
+}
+
+
+.navbar__s1__desc{
+    padding-right: 15%;
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.navbar__s1__desc1{
+    display: flex;
+    gap: 15px;
+    cursor: pointer;
+}
+
+.navbar__s1 button{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    font-size: medium;
+    cursor: pointer;
+}
+
+.navbar__s2{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.navbar__s3{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    cursor: pointer;
+}
+
+.navbar__s4{
+    margin-top: 5px;
+    margin-left: 15%;
+    margin-right: 15%;   
+    padding: 7px;
+    border: solid black 1px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.navbar__s4 i{
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+.navbar__s4 input{
+    border: none;
+    font-size: 16px;
+    width: 55%;
+    background-color: transparent;
+    align-items: center;
+    cursor: pointer;
+}
+
+.navbar__s4 input:focus{
+    outline: none;
+}
+
+.navbar__s4 button{
+    margin-left: 20%;
+     padding: 10px;
+    background-color: rgb(147, 242, 147);
+    color: black;
+    border-radius: 25px;
+    font-size: medium;
+    cursor: pointer;
+}
+
+.container{
+    width: 100%;
+    height: 450px;
+    background-color: rgb(246, 97, 97);
+    margin-top: 5px;
+    border-radius: 15px;
+    display: flex;
+}
+
+.container__image{
+    padding: 20px;
+}
+
+.container__image img{
+    width: 600px;
+    height: 410px;
+    border-radius: 20px;
+}
+
+.section1__title{
+    margin: 15px;
+    font-weight: 1000;
+    font-size: 64px;
+}
+
+.section1__button{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    font-size: medium;
+    cursor: pointer;
+}
+
+.recommended{
+    margin: 8px;
+}
+
+.recommended__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.course-card{
+    position: relative;
+   flex-grow: 1;
+   flex-basis: 250px;
+   margin: 5px;
+}
+
+.course-card img{
+    height: 75%;
+    width: 100%;
+}
+
+.course-card h2{
+    position: absolute;
+    bottom: 75px;
+    left: 15px;
+    background-color: rgb(54, 54, 53);
+    color: whitesmoke;
+}
+
+.course-card img:hover{
+    cursor: pointer;
+     filter: opacity(0.7);
+    transform: scale(1.04);
+}
+
+.experience{
+    margin: 8px;
+}
+
+.experience__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.course-card{
+    position: relative;
+   flex-grow: 1;
+   flex-basis: 250px;
+   margin: 5px;
+}
+
+.course-card__image{
+    position: absolute;
+    top: 20px;
+    left: 90%;
+    
+}
+
+.course-card__image img{
+    width: 60%;
+    height: 60%;
+}
+.inspiration{
+    margin-top: 45px;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    padding-left: 15%;
+    padding-right: 15%;
+    background-color: bisque;
+}
+
+.inspiration__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.waiting{
+    margin: 8px;
+    margin-top: 20px;
+}
+
+.waiting__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.popular{
+    padding: 10px;
+}
+
+.popular__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.collection{
+    padding: 10px;
+}
+
+.collection__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.footer{
+    padding: 30px;
+    background-color: rgb(158, 107, 158);
+    color: white;
+}
+
+.footer__one{
+    margin: 10px;
+    display: flex;
+    gap: 30px;
+}
+
+.footer__one p{
+    padding: 5px;
+    cursor: pointer;
+}
+
+.footer__two{
+    margin: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Media Queries*/
+
+@media screen and (max-width:800px) {
+    body{
+        font-size: 10px;
+    } 
+}
+
