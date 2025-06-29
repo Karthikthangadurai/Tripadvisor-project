@@ -12,7 +12,7 @@ A responsive **TripAdvisor-style travel website** built using **HTML and CSS**. 
 
 ## 🔗 Live Demo
 
-🌐 [View Website](https://yourusername.github.io/tripadvisor-clone/)
+🌐 [View Website](https://karthikthangadurai.github.io/Tripadvisor-project/)
 
 ## 🛠️ Built With
 
