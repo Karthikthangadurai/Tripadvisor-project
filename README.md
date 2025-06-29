@@ -25,5 +25,5 @@ A responsive **TripAdvisor-style travel website** built using **HTML and CSS**. 
 ## 👨‍💻 Author
 
 * **Karthik T**
-  🌐 [GitHub](https://github.com/yourusername)
-  🔗 [LinkedIn](https://linkedin.com/in/yourprofile)
+  🌐 [GitHub](https://github.com/Karthikthangadurai)
+  🔗 [LinkedIn](https://www.linkedin.com/in/karthikthangadurai)
