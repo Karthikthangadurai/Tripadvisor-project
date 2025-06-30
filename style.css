@@ -326,7 +326,7 @@ figure {
 
 /*Media Queries*/
 
-@media screen and (max-width:546px) {
+@media screen (max-width:546px)  and (min-width:546px) {
     .font {
         font-size: 5px;
     }
@@ -378,7 +378,7 @@ figure {
 }
 }
 
-@media screen and (max-width:768px) {
+@media screen (max-width:768px) and (min-width:768px) {
     .font {
         font-size: 5px;
     }
@@ -430,7 +430,7 @@ figure {
 }
 }
 
-@media screen and (max-width:992px) {
+@media screen (max-width:992px) and (min-width:992px) {
     .font {
         font-size: 10px;
     }
