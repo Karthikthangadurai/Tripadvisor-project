@@ -57,7 +57,7 @@ body {
     cursor: pointer;
 }
 
-.navbar__s1 button {
+.navbar__s1__desc1 button {
     padding: 10px;
     background-color: black;
     color: white;
@@ -327,35 +327,115 @@ figure {
 /*Media Queries*/
 
 @media screen and (max-width:546px) {
-    body {
+    .font {
         font-size: 5px;
     }
-   
-    .course-card {
-        flex-basis: 40%;
+
+    .navbar__s1__image img {
+        margin-top: none;
+        margin-top: 3%;
     }
 
-    .container {
+    .navbar__s1__desc1 button {
+        font-size: none;
+        font-size: 5px;
+        padding: none;
+        padding: 4px;
+        border-radius: none;
+        border-radius: 8px;
+    }
+
+    .navbar__s2 {
         display: none;
     }
+
+    .navbar__s4 {
+        padding: none;
+        padding: 5px;
+        border-radius: none;
+        border-radius: 20px;
+        gap: none;
+        gap: 5px;
+    }
+
+.navbar__s4 input {
+    font-size: none;
+    font-size: 10px;
+}
+
+.navbar__s4 button {
+    font-size: none;
+    font-size: 5px;
+    margin-left: none;
+}
+
+.course-card {
+    flex-basis: 40%;
+}
+
+.container {
+    display: none;
+}
 }
 
 @media screen and (max-width:768px) {
-    body {
+    .font {
         font-size: 5px;
     }
 
-    .course-card {
-        flex-basis: 40%;
+    .navbar__s1__image img {
+        margin-top: none;
+        margin-top: 3%;
     }
 
-    .container {
+    .navbar__s1__desc1 button {
+        font-size: none;
+        font-size: 5px;
+        padding: none;
+        padding: 4px;
+        border-radius: none;
+        border-radius: 8px;
+    }
+
+    .navbar__s2 {
         display: none;
     }
+
+    .navbar__s4 {
+        padding: none;
+        padding: 5px;
+        border-radius: none;
+        border-radius: 20px;
+        gap: none;
+        gap: 5px;
+    }
+
+.navbar__s4 input {
+    font-size: none;
+    font-size: 10px;
+}
+
+.navbar__s4 button {
+    font-size: none;
+    font-size: 5px;
+    margin-left: none;
+}
+
+.course-card {
+    flex-basis: 40%;
+}
+
+.container {
+    display: none;
+}
 }
 
 @media screen and (max-width:992px) {
-    body {
+    .font {
+        font-size: 10px;
+    }
+
+    .container {
         font-size: 10px;
     }
 
@@ -366,8 +446,13 @@ figure {
 
 @media screen and (max-width:1200px) {
     body {
-        font-size: 14px;
+        font-size: 16px;
     }
+
+    .container {
+        font-size: 16px;
+    }
+
     .course-card {
         flex-basis: 40%;
     }
@@ -375,6 +460,10 @@ figure {
 
 @media screen and (min-width:1200px) {
     body {
+        font-size: 16px;
+    }
+
+    .container {
         font-size: 16px;
     }
 }
