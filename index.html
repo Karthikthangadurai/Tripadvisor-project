@@ -1,300 +1,1063 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tripadvisor</title>
+
     <!--Google Style Sheet for Fonts-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
     <!--Font Awasome CDN Link-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
 
-    <!--My Style Sheet-->
-    <link rel="stylesheet" href="style.css">
-</head>
+    <!-- Tailwind CSS Added -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
 
-<body>
-    <div class="font">
-        <!--Big Container-->
-        <div class="big__container">
-            <!--Navbar-->
-            <div class="navbar">
+    <!-- link to CSS file -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
 
-                <div class="navbar__s1">
-                    <div class="navbar__s1__image"><img src="owl.png" alt="owl">
-                        <div class="navbar__s1__title">
-                            <h1>Tripadvisor</h1>
-                        </div>
-                    </div>
-                    <div class="navbar__s1__desc">
-                        <p>Discover</p>
-                        <P>Trips</P>
-                        <p>Review</p>
-                        <p>Forums</p>
-                    </div>
-                    <div class="navbar__s1__desc1">
-                        <p><i class="fa-solid fa-globe" style="color: #0b7cf4;"></i> | INR</p>
-                        <button>Sign in</button>
-                    </div>
-                </div>
-                <div class="navbar__s2">
-                    <h1 class="navbar__s2__title">Where to?</h1>
-                </div>
-                <div class="navbar__s3">
-                    <p><i class="fa-solid fa-angle-up" style="color: #010813;"></i> Search All</p>
-                    <p><i class="fa-solid fa-bed" style="color: #000714;"></i> Hotels</p>
-                    <p><i class="fa-solid fa-camera" style="color: #000714;"></i> Things to Do</p>
-                    <p><i class="fa-solid fa-utensils" style="color: #010813;"></i> Restaurants</p>
-                    <p><i class="fa-solid fa-plane-up" style="color: #000919;"></i> Flights</p>
-                    <p><i class="fa-solid fa-house" style="color: #010a18;"></i> Holiday Homes</p>
-                </div>
-                <div class="navbar__s4">
-                    <i class="fa-solid fa-magnifying-glass" style="color: #00040a;"></i>
-                    <input placeholder="Restaurant or destination">
-                    <button>Search</button>
-                </div>
-            </div>
-
-            <div class="container">
-                <figure>
-                    <div class="container__image">
-                        <img src="img1.jpg" alt="image">
-                    </div>
-                </figure>
-                <div class="container__s1">
-                    <h1 class="container__s1__title">Book the best part of your trip</h1>
-                    <p class="container__s1__desc">Browse unforgettable things to do-right here.</p>
-                    <button class="container__s1__button">Find things to go</button>
-                </div>
-            </div>
-
-            <!--Recommended-->
-
-            <div class="recommended">
-                <h2 class="recommended__title">Find things to do by interest</h2>
-                <P> Whatever you're into, we've got it</P>
-                <div class="recommended__container">
-                    <div class="course-card">
-                        <img src="download1.jpg" alt="image">
-                        <div>
-                            <h2>Outdoors</h2>
-                        </div>
-                    </div>
-                    <div class="course-card">
-                        <img src="download2.jpeg" alt="image">
-                        <div>
-                            <h2>Foods</h2>
-                        </div>
-                    </div>
-                    <div class="course-card">
-                        <img src="download3.jpg" alt="image">
-                        <div>
-                            <h2>Culture</h2>
-                        </div>
-                    </div>
-                    <div class="course-card">
-                        <img src="download4.jpg" alt="image">
-                        <div>
-                            <h2>Water</h2>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!--Experience-->
-
-            <div class="experience">
-                <h2 class="experience__title">Explore experiences near Chennai (Madras)</h2>
-                <p>Can't-miss picks near you</p>
-                <div class="experience__container">
-                    <div class="course-card">
-                        <img src="photo1.jpg" alt="image">
-                        <div class="course-card__image"><img src="emoji.png" alt="image"></div>
-                        <h4>Tour by Tourism Ministry approved company</h4>
-                        <p>4.9 🟢🟢🟢🟢🟢 (450)</p>
-                        <p>from INR.5000 per adult</p>
-                    </div>
-                    <div class="course-card">
-                        <img src="photo2.jpg" alt="image">
-                        <div class="course-card__image"><img src="emoji.png" alt="image"></div>
-                        <h4>Total Chennai city tour in Private car with guide & Lunch by Wonder tours</h4>
-                        <p>4.9 🟢🟢🟢🟢🟢 (100)</p>
-                        <p>from INR.7000 per adult</p>
-                    </div>
-                    <div class="course-card">
-                        <img src="photo3.jpg" alt="image">
-                        <div class="course-card__image"><img src="emoji.png" alt="image"></div>
-                        <h4>South Indian Vegetarian Cooking Class in Chennai with Meena</h4>
-                        <p>4.9 🟢🟢🟢🟢🟢 (55)</p>
-                        <p>from INR.3499 per adult</p>
-                    </div>
-                    <div class="course-card">
-                        <img src="photo4.jpg" alt="image">
-                        <div class="course-card__image"><img src="emoji.png" alt="image"></div>
-                        <h4>Sivan Temple</h4>
-                        <p>5🟢🟢🟢🟢🟢 (555)</p>
-                        <p>from INR.4500 per adult</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--Inspiration-->
-
-        <div class="inspiration">
-            <h2>Inspiration to get you going</h2>
-            <div class="inspiration__container">
-                <div class="course-card">
-                    <img src="i1.jpg" alt="image">
-                    <p>Where to stargaze around the world, from Chennai</p>
-                </div>
-                <div class="course-card">
-                    <img src="i2.jpg" alt="image">
-                    <p>One of the Most Expansive BMW cars Head Office</p>
-                </div>
-                <div class="course-card">
-                    <img src="i3.jpg" alt="image">
-                    <p>13 cities, 13 unbelievable food Trips</p>
-                </div>
-            </div>
+  <body>
+    <header>
+      <!-- Navbar Tag -->
+      <nav class="navbar border">
+        <div class="navbar-s1">
+          <img src="./image/owl logo.png" alt="logo" />
+          <h1 class="text-2xl font-serif">Tripadvisor</h1>
         </div>
 
-        <!--Again Big Container-->
-
-        <div class="big__container">
-
-            <!--Popular-->
-
-            <div class="popular">
-                <h2 class="popular__title">Things to do-right now</h2>
-                <p>Seasonal faves you don't want to miss</p>
-                <div class="popular__container">
-                    <div class="course-card">
-                        <img src="car1.jpg" alt="image">
-                        <div class="course-card__image"><img src="emoji.png" alt="image"></div>
-                        <h4>Car Race Visiting Place</h4>
-                        <p>4.9 🟢🟢🟢🟢🟢 (450)</p>
-                        <p>from INR.11000 per adult</p>
-                    </div>
-                    <div class="course-card">
-                        <img src="car2.jpg" alt="image">
-                        <div class="course-card__image"><img src="emoji.png" alt="image"></div>
-                        <h4>The World's Most Expensive Car ride</h4>
-                        <p>4.9 🟢🟢🟢🟢🟢 (100)</p>
-                        <p>from INR.17000 per adult</p>
-                    </div>
-                    <div class="course-card">
-                        <img src="boat1.webp" alt="image">
-                        <div class="course-card__image"><img src="emoji.png" alt="image"></div>
-                        <h4>The World Most Expensive Ship travel</h4>
-                        <p>4.9 🟢🟢🟢🟢🟢 (75)</p>
-                        <p>from INR.25000 per adult</p>
-                    </div>
-                    <div class="course-card">
-                        <img src="flight1.avif" alt="image">
-                        <div class="course-card__image"><img src="emoji.png" alt="image"></div>
-                        <h4>The World Most Expensive Flight Travel</h4>
-                        <p>5🟢🟢🟢🟢🟢 (555)</p>
-                        <p>from INR.35000 per adult</p>
-                    </div>
-                </div>
-            </div>
-
-
-            <!--Waiting List-->
-
-            <div class="waiting">
-                <h2>Your Next Trip is Waiting</h2>
-                <h3>Weekend getaways from Tamil Nadu</h3>
-                <div class="waiting__container">
-                    <div class="course-card">
-                        <img src="c1.jpg" alt="image">
-                        <h3>Chennai, Tamil Nadu</h3>
-                    </div>
-                    <div class="course-card">
-                        <img src="Chennai-new.webp" alt="image">
-                        <h3>Chennai, Tamil Nadu</h3>
-                    </div>
-                    <div class="course-card">
-                        <img src="tm1.jpg" alt="image">
-                        <h3>Tiruvannamalai, Tamil Nadu</h3>
-                    </div>
-                    <div class="course-card">
-                        <img src="ct1.jpeg" alt="image">
-                        <h3>Chennai, Tamil Nadu</h3>
-                    </div>
-                </div>
-            </div>
-
-            <!--Collections-->
-
-            <div class="collection">
-                <h2>Browse themed Collections</h2>
-                <div class="collection__container">
-                    <div class="course-card">
-                        <img src="pizza.avif" alt="image">
-                        <h2>Pizza,Chennai style</h2>
-                        <p>Classes and experiences for authentic pizza</p>
-                    </div>
-                    <div class="course-card">
-                        <img src="sunset.jpg" alt="image">
-                        <h2>Sunset Spots</h2>
-                        <p>Famous sunset spots in Chennai</p>
-                    </div>
-                    <div class="course-card">
-                        <img src="chennai.jpg" alt="image">
-                        <h2>Chennai central</h2>
-                        <p>Most visited place chennai central</p>
-                    </div>
-                    <div class="course-card">
-                        <img src="nature.jpg" alt="image">
-                        <h2>Nature place</h2>
-                        <p>Most visited natural place in Chennai</p>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-        <!--Footer-->
-
-        <div class="footer">
-            <div class="footer__one">
-                <div class="footer__one__s1">
-                    <h3>About Tripadvisor</h3>
-                    <p>About Us</p>
-                    <p>Resources and Policies</p>
-                    <p>Careers</p>
-                    <p>Trust & Safety</p>
-                    <p>Contact Us</p>
-                </div>
-                <div class="footer__one__s2">
-                    <h3>Explore</h3>
-                    <p>Write a review</p>
-                    <p>Add a Place</p>
-                    <p>Join</p>
-                    <p>Help Center</p>
-                    <p>Traveller's Choice</p>
-                    <p>Travel Stories</p>
-                </div>
-            </div>
-            <div class="footer__two">
-                <h1>Tripadvisor</h1>
-                <p>&copy; 2025 Tripadvisor, Inc</p>
-            </div>
-
+        <div class="navbar-s2 hidden md:block">
+          <ul class="navbar-s2-ul">
+            <li>
+              <a href="#" class="navbar-s2-ai"
+                ><i
+                  class="fa-solid fa-robot fa-lg"
+                  style="color: rgb(32, 12, 180)"
+                ></i>
+                Plan with AI
+              </a>
+            </li>
+            <li><a href="#">Discover</a></li>
+            <li><a href="#">Review </a></li>
+            <li><a href="#">More</a></li>
+            <li>
+              <a href="#"
+                ><i
+                  class="fa-solid fa-heart-circle-bolt fa-lg"
+                  style="color: rgb(97, 66, 187)"
+                ></i
+              ></a>
+            </li>
+            <li><a href="#">🌐 | INR</a></li>
+            <li><button class="navbar-s2-button">Sign in</button></li>
+          </ul>
         </div>
 
-    </div>
-    
-</body>
+        <!-- Menu Icon -->
+        <div class="md:hidden">
+          <i class="fa-solid fa-bars fa-lg" style="color: rgb(0, 0, 0)"></i>
+        </div>
+      </nav>
+    </header>
 
+    <!-- Body content start -->
+    <main>
+      <!-- Search Place -->
+      <section class="search">
+        <div>
+          <h1 class="search__title">Where to?</h1>
+        </div>
+        <div class="search__s1">
+          <i class="fa-solid fa-magnifying-glass" style="color: #0f0000"></i>
+          <input placeholder="Places to go, things to do, hotels..." />
+          <button class="search__button1">AskAI</button>
+          <button class="search__button2">Search</button>
+        </div>
+      </section>
+
+      <!-- Book Now Show -->
+      <section class="card">
+        <div class="card1">
+          <img class="card1__image" src="./image/card1.jpg" alt="image" />
+          <button class="card1__button">Jhoon C</button>
+        </div>
+        <div class="card2">
+          <h1 class="card2__title">
+            Find things to do for everything you're into
+          </h1>
+          <p class="card2__desc">
+            Browse 400,000+ experiences and book with us.
+          </p>
+          <button class="card2__button">Book now</button>
+        </div>
+      </section>
+
+      <!-- Interest Section -->
+      <section class="interest">
+        <h3 class="interest__title">Find things to do by interest</h3>
+        <p class="interest__desc">Whatever you're into, we've got it</p>
+        <div class="interest__image">
+          <div>
+            <img src="./image/interest1.jpg" alt="" />
+            <span>Outdoors</span>
+          </div>
+          <div>
+            <img src="./image/interest2.jpg" alt="" />
+            <span>Food</span>
+          </div>
+          <div>
+            <img src="./image/interest3.jpg" alt="" />
+            <span>Culture</span>
+          </div>
+          <div>
+            <img src="./image/interest4.jpg" alt="" />
+            <span>Water</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Adventures section -->
+      <section class="adv">
+        <h3 class="adv__title">Outdoor adventures in New Delhi</h3>
+        <div class="adv__container">
+          <div class="adv__subcontainer">
+            <img
+              class="adv__subcontainer__image"
+              src="./image/adventure1.jpg"
+              alt="photo"
+            />
+            <span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="heart"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
+                />
+              </svg>
+            </span>
+            <h4 class="adv__subcontainer__title">WanderOn</h4>
+            <p class="adv__subcontainer__desc">4.9 🔵🔵🔵🔵🔵 (4,237)</p>
+            <p class="adv__subcontainer__desc">Sightseeing Tours, Bike Tours</p>
+          </div>
+          <div class="adv__subcontainer">
+            <img
+              class="adv__subcontainer__image"
+              src="./image/adventure2.jpg"
+              alt="photo"
+            />
+            <span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="heart"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
+                />
+              </svg>
+            </span>
+            <h4 class="adv__subcontainer__title">On His Own Trip</h4>
+            <p class="adv__subcontainer__desc">4 🔵🔵🔵🔵 (1,034)</p>
+            <p class="adv__subcontainer__desc">
+              Hiking & Camping Tours, Cultural Tours
+            </p>
+          </div>
+          <div class="adv__subcontainer">
+            <img
+              class="adv__subcontainer__image"
+              src="./image/adventure3.jpg"
+              alt="photo"
+            />
+            <span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="heart"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
+                />
+              </svg>
+            </span>
+            <h4 class="adv__subcontainer__title">Private Driver India</h4>
+            <p class="adv__subcontainer__desc">5.0 🔵🔵🔵🔵🔵 (700)</p>
+            <p class="adv__subcontainer__desc">
+              Taxis & Shuttles, Nature & Wildlife Tours
+            </p>
+          </div>
+          <div class="adv__subcontainer">
+            <img
+              class="adv__subcontainer__image"
+              src="./image/adventure4.jpg"
+              alt="photo"
+            />
+            <span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="heart"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
+                />
+              </svg>
+            </span>
+            <h4 class="adv__subcontainer__title">Tripogram Club Pvt. Ltd.</h4>
+            <p class="adv__subcontainer__desc">4.5 🔵🔵🔵🔵🔵 (357)</p>
+            <p class="adv__subcontainer__desc">
+              Taxis & Shuttles, Adrenaline & Extreme Tours
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Business travel details -->
+      <section class="adv">
+        <h3 class="adv__title">Business travel spots in New Delhi</h3>
+        <div class="adv__container">
+          <div class="adv__subcontainer">
+            <img
+              class="adv__subcontainer__image"
+              src="./image/business1.jpg"
+              alt=""
+            />
+            <span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="heart"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
+                /></svg
+            ></span>
+            <h4 class="adv__subcontainer__title">The Lalit New Delhi</h4>
+            <p class="adv__subcontainer__desc">4.7 🔵🔵🔵🔵🔵 (13,059)</p>
+          </div>
+          <div class="adv__subcontainer">
+            <img
+              class="adv__subcontainer__image"
+              src="./image/business2.jpg"
+              alt=""
+            />
+            <span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="heart"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
+                /></svg
+            ></span>
+            <h4 class="adv__subcontainer__title">
+              Lemon Tree Hotel,Delhi Airport
+            </h4>
+            <p class="adv__subcontainer__desc">4.6 🔵🔵🔵🔵🔵 (5,957)</p>
+          </div>
+          <div class="adv__subcontainer">
+            <img
+              class="adv__subcontainer__image"
+              src="./image/business3.jpg"
+              alt=""
+            />
+            <span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="heart"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
+                /></svg
+            ></span>
+            <h4 class="adv__subcontainer__title">Ibis New Delhi Aerocity</h4>
+            <p class="adv__subcontainer__desc">4.3 🔵🔵🔵🔵🔵 (5,445)</p>
+          </div>
+          <div class="adv__subcontainer">
+            <img
+              class="adv__subcontainer__image"
+              src="./image/business4.jpg"
+              alt=""
+            />
+            <span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="heart"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
+                /></svg
+            ></span>
+            <h4 class="adv__subcontainer__title">The Park New Delhi</h4>
+            <p class="adv__subcontainer__desc">4.2 🔵🔵🔵🔵 (6,757)</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Breakfast details -->
+      <section class="adv">
+        <h3 class="adv__title">Breakfast spots in New Delhi</h3>
+        <div class="adv__container">
+          <div class="adv__subcontainer">
+            <img
+              class="adv__subcontainer__image"
+              src="./image/breakfast1.jpg"
+              alt="photo"
+            />
+            <span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="heart"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
+                /></svg
+            ></span>
+            <h4 class="adv__subcontainer__title">Kiyan, The Roseate</h4>
+            <p class="adv__subcontainer__desc">4.9 🔵🔵🔵🔵🔵 (1,520)</p>
+            <p class="adv__subcontainer__desc">₹₹₹₹ - Thai, Indian, Asian</p>
+          </div>
+          <div class="adv__subcontainer">
+            <img
+              class="adv__subcontainer__image"
+              src="./image/breakfast2.jpg"
+              alt="photo"
+            />
+            <span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="heart"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
+                /></svg
+            ></span>
+            <h4 class="adv__subcontainer__title">Waffle</h4>
+            <p class="adv__subcontainer__desc">5.0 🔵🔵🔵🔵🔵 (365)</p>
+            <p class="adv__subcontainer__desc">
+              ₹₹ ~ ₹₹₹ - Cafe, Fast Food, Deli
+            </p>
+          </div>
+          <div class="adv__subcontainer">
+            <img
+              class="adv__subcontainer__image"
+              src="./image/breakfast3.jpg"
+              alt="photo"
+            />
+            <span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="heart"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
+                /></svg
+            ></span>
+            <h4 class="adv__subcontainer__title">Ottimo at West View</h4>
+            <p class="adv__subcontainer__desc">4.8 🔵🔵🔵🔵🔵 (435)</p>
+            <p class="adv__subcontainer__desc">
+              ₹₹₹₹ - Italian, Pizza, European
+            </p>
+          </div>
+          <div class="adv__subcontainer">
+            <img
+              class="adv__subcontainer__image"
+              src="./image/breakfast4.jpg"
+              alt="photo"
+            />
+            <span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="heart"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
+                /></svg
+            ></span>
+            <h4 class="adv__subcontainer__title">Shang Palace</h4>
+            <p class="adv__subcontainer__desc">4.9 🔵🔵🔵🔵🔵 (1,717)</p>
+            <p class="adv__subcontainer__desc">₹₹₹₹ - Chinese, Asian, Soups</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Explore Experience Section -->
+      <section class="adv">
+        <h3 class="adv__title">Explore experiences near Chennai (Madras)</h3>
+        <p style="padding-top: 10px; color: gray; font-weight: 500">
+          Can't-miss picks near you
+        </p>
+        <div class="adv__container">
+          <div class="adv__subcontainer">
+            <img
+              class="adv__subcontainer__image"
+              src="./image/experience1.jpg"
+              alt="photo"
+            />
+            <span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="heart"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
+                /></svg
+            ></span>
+            <h4 class="adv__subcontainer__title">
+              Georgetown heritage walking tour of Chennai's first settlement
+            </h4>
+            <p class="adv__subcontainer__desc">4.9 🔵🔵🔵🔵🔵 (165)</p>
+            <p style="padding-top: 2px; font-size: 13px; font-weight: 500">
+              from ₹3,873 per adult
+            </p>
+          </div>
+          <div class="adv__subcontainer">
+            <img
+              class="adv__subcontainer__image"
+              src="./image/experience2.jpg"
+              alt="photo"
+            />
+            <span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="heart"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
+                /></svg
+            ></span>
+            <h4 class="adv__subcontainer__title">
+              Mahabalipuram Private Tour with Lunch & Guide from Chennai
+            </h4>
+            <p class="adv__subcontainer__desc">5.0 🔵🔵🔵🔵🔵 (365)</p>
+            <p style="padding-top: 2px; font-size: 13px; font-weight: 500">
+              from ₹8,618 per adult
+            </p>
+          </div>
+          <div class="adv__subcontainer">
+            <img
+              class="adv__subcontainer__image"
+              src="./image/experience3.jpg"
+              alt="photo"
+            />
+            <span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="heart"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
+                /></svg
+            ></span>
+            <h4 class="adv__subcontainer__title">
+              Chennai tour in car with guide-winner of traveller's choice award
+            </h4>
+            <p class="adv__subcontainer__desc">5.0 🔵🔵🔵🔵🔵 (435)</p>
+            <p style="padding-top: 2px; font-size: 13px; font-weight: 500">
+              from ₹7,746 per adult
+            </p>
+          </div>
+          <div class="adv__subcontainer">
+            <img
+              class="adv__subcontainer__image"
+              src="./image/experience4.jpg"
+              alt="photo"
+            />
+            <span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="heart"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
+                /></svg
+            ></span>
+            <h4 class="adv__subcontainer__title">
+              Chennai Market Tour & Cooking Class in a Local Home with Meena
+            </h4>
+            <p class="adv__subcontainer__desc">5.0 🔵🔵🔵🔵🔵 (51)</p>
+            <p style="padding-top: 2px; font-size: 13px; font-weight: 500">
+              from ₹5,229 per adult
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Donation details -->
+      <div class="donate">
+        <div class="donate__box1">
+          <img
+            style="border-radius: 5px"
+            src="./image/donate1.jpg"
+            alt="donate image"
+          />
+        </div>
+
+        <div class="donate__box2">
+          <div class="donate__logo">
+            <img src="./image/owl logo.png" alt="logo" />
+            <p class="text-sm md:text-base">Tripadvisor Foundation</p>
+          </div>
+
+          <p class="donate__box2__title">Show some love to small businesses</p>
+          <p class="donate__box2__desc">
+            Donate to Kiva.org today to provide loans to local entrepreneurs and
+            the Tripadvisor Foundation will match it, up to $150,000 USD
+            collectively. Terms apply.
+          </p>
+          <button class="donate__box2__btn">Donate now</button>
+        </div>
+      </div>
+
+      <!-- Inspiration details -->
+      <div class="inspiration">
+        <h3>Inspiration to get you going</h3>
+        <div class="inspiration__container">
+          <div class="inspiration__box1">
+            <img src="./image/inspiration1.jpg" alt="photo" />
+            <span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="heart"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
+                />
+              </svg>
+            </span>
+            <a href="#" target="_blank"
+              >6 beaches that keep summer going into fall</a
+            >
+          </div>
+          <div class="inspiration__box1">
+            <img src="./image/inspiration2.jpg" alt="photo" />
+            <span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="heart"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
+                />
+              </svg>
+            </span>
+            <a href="#" target="_blank"
+              >A low-spend guide to the world's most expensive cities</a
+            >
+          </div>
+          <div class="inspiration__box1">
+            <img src="./image/inspiration3.jpg" alt="" />
+            <span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="heart"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
+                />
+              </svg>
+            </span>
+            <a href="#" target="_blank"
+              >8 top-tier street food cities around the world</a
+            >
+          </div>
+        </div>
+      </div>
+
+      <!-- Bike Tour Section -->
+      <section class="adv">
+        <h3 class="adv__title">Unforgettable bike tours across the globe</h3>
+        <p style="padding-top: 10px; color: gray; font-weight: 500">
+          Explore on two wheels
+        </p>
+        <div class="adv__container">
+          <div class="adv__subcontainer">
+            <img
+              class="adv__subcontainer__image"
+              src="./image/bike1.jpg"
+              alt="photo"
+            />
+            <span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="heart"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
+                /></svg
+            ></span>
+            <h4 class="adv__subcontainer__title">
+              Versailles Palace Bike Tour with Market & Marie-Antoinette hamlet
+            </h4>
+            <p class="adv__subcontainer__desc">4.9 🔵🔵🔵🔵🔵 (2,259)</p>
+            <p style="padding-top: 2px; font-size: 13px; font-weight: 500">
+              from ₹12,315 per adult
+            </p>
+          </div>
+          <div class="adv__subcontainer">
+            <img
+              class="adv__subcontainer__image"
+              src="./image/bike2.jpg"
+              alt="photo"
+            />
+            <span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="heart"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
+                /></svg
+            ></span>
+            <h4 class="adv__subcontainer__title">
+              Berlin Highlights Sightseeing Bike Tour 3.5h in Small Groups
+            </h4>
+            <p class="adv__subcontainer__desc">4.8 🔵🔵🔵🔵🔵 (527)</p>
+            <p style="padding-top: 2px; font-size: 13px; font-weight: 500">
+              from ₹3,954 per adult
+            </p>
+          </div>
+          <div class="adv__subcontainer">
+            <img
+              class="adv__subcontainer__image"
+              src="./image/bike3.jpg"
+              alt="photo"
+            />
+            <span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="heart"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
+                /></svg
+            ></span>
+            <h4 class="adv__subcontainer__title">
+              Athens Scenic Bike Tour with Regular or Electric Bike + Acropolis
+            </h4>
+            <p class="adv__subcontainer__desc">5.0 🔵🔵🔵🔵🔵 (2,290)</p>
+            <p style="padding-top: 2px; font-size: 13px; font-weight: 500">
+              from ₹5,084 per adult
+            </p>
+          </div>
+          <div class="adv__subcontainer">
+            <img
+              class="adv__subcontainer__image"
+              src="./image/bike4.jpg"
+              alt="photo"
+            />
+            <span
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="1.5"
+                stroke="currentColor"
+                class="heart"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z"
+                /></svg
+            ></span>
+            <h4 class="adv__subcontainer__title">
+              Washington DC Monuments Bike Tour
+            </h4>
+            <p class="adv__subcontainer__desc">4.8 🔵🔵🔵🔵🔵 (351)</p>
+            <p style="padding-top: 2px; font-size: 13px; font-weight: 500">
+              from ₹6,374 per adult
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Next Trip Plan Section -->
+      <section class="interest">
+        <h2 class="interest__title">Your next trip is waiting</h2>
+        <h3 class="interest__desc" style="color: #0f0000">
+          Weekend getaways from Coimbatore
+        </h3>
+        <div class="interest__image">
+          <div>
+            <img src="./image/tripplan1.jpg" alt="" />
+            <span>Ooty (Udhagamandalam), India</span>
+          </div>
+          <div>
+            <img src="./image/tripplan2.jpg" alt="" />
+            <span>Madurai, India</span>
+          </div>
+          <div>
+            <img src="./image/tripplan3.jpg" alt="" />
+            <span>Bengaluru, India</span>
+          </div>
+          <div>
+            <img src="./image/tripplan4.jpg" alt="" />
+            <span>Mysuru (Mysore), India</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Iconic Place Section -->
+      <section class="interest">
+        <h3 class="interest__title" style="padding-bottom: 10px">
+          Iconic places you need to see
+        </h3>
+        <div class="interest__image">
+          <div>
+            <img src="./image/place1.jpg" alt="" />
+            <span>Rome, Italy </span>
+          </div>
+          <div>
+            <img src="./image/place2.jpg" alt="" />
+            <span>Paris, France</span>
+          </div>
+          <div>
+            <img src="./image/place3.jpg" alt="" />
+            <span>Las Vegas, NV</span>
+          </div>
+          <div>
+            <img src="./image/place4.jpg" alt="" />
+            <span>London, UK</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sponsor list Section -->
+      <div class="donate" style="border: none">
+        <div class="donate__box1">
+          <img
+            style="border-radius: 5px; width: 525px; height: 525px"
+            src="./image/sponcor1.jpg"
+            alt="sponsor image"
+          />
+        </div>
+
+        <div class="donate__box2">
+          <div class="donate__logo">
+            <img src="./image/owl logo.png" alt="logo" />
+            <p class="text-sm md:text-base">
+              Sponsored by <a href="#" style="color: black">Wanderlab</a>
+            </p>
+          </div>
+
+          <p class="donate__box2__title">Watch The Wanderer</p>
+          <p class="donate__box2__desc">
+            Tripadvisor's award-winning travel series, now streaming on Amazon
+            Prime Video
+          </p>
+          <button class="donate__box2__btn">Learn more</button>
+        </div>
+      </div>
+
+      <!-- Final Card Section -->
+      <section class="final">
+        <div class="final-one">
+          <img
+            style="width: 60px; height: auto"
+            src="./image/2026-Badge.svg"
+            alt=""
+          />
+          <h1 style="font-size: 52px">
+            Travellers' Choice Awards Best of the Best
+          </h1>
+          <h4 style="font-size: 18px">
+            Among our top 1% of places, stays, eats, and experiences—decided by
+            you.
+          </h4>
+          <button>See the winners</button>
+        </div>
+
+        <div class="final-two">
+          <img
+            style="width: 500px; height: 570px"
+            src="./image/final1.jpg"
+            alt=""
+          />
+          <div class="final-two__one">
+            <img
+              style="width: 100px; height: auto"
+              src="./image/2026-Badge.svg"
+              alt=""
+            />
+            <span class="final_1">@K6966RFpatrickm</span>
+            <span class="final_2">⚫⚫⚫⚫⚫</span>
+            <span class="final_3">Rome by Golf Cart Private Tour</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer Content -->
+    <footer class="footer">
+      <div class="footer-one">
+        <div class="footer-one-1">
+          <div>
+            <p style="padding-bottom: 5px">About Tripadvisor</p>
+            <a href="">About Us</a> <br />
+            <a href="">Press</a><br />
+            <a href="">Resources and Policies</a><br />
+            <a href="">Careers</a><br />
+            <a href="">Trust & Safety</a><br />
+            <a href="">Contact us</a><br />
+            <a href="">Tripadvisor Technology Blog</a>
+          </div>
+          <div>
+            <p style="padding-bottom: 5px">Explore</p>
+            <a href="">Write a review</a><br />
+            <a href="">Add a Place</a><br />
+            <a href="">Join </a><br />
+            <a href="">Travellers' Choice</a><br />
+            <a href="">Help Centre</a><br />
+            <a href="">Travel Stories</a>
+          </div>
+          <div class="hidden md:block">
+            <div>
+              <p style="padding-bottom: 5px">Do Business With Us</p>
+              <a href="">Owners & DMO/CVB</a><br />
+              <a href="">Business Advantage</a><br />
+              <a href="">Sponsored Placements</a><br />
+              <a href="">Advertise with Us</a><br />
+              <a href="">Access our Content API</a>
+            </div>
+            <div style="margin-top: 5%">
+              <p style="padding-bottom: 5px">Get The App</p>
+              <a href="">iPhone App</a><br />
+              <a href="">Android App</a>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <p style="padding-bottom: 10px">Tripadvisor Sites</p>
+          <p style="font-size: 14px">
+            Book tours and attraction tickets on <a href="#">Viator</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="footer-two">
+        <div class="footer-two-1">
+          <div class="footer-two-2">
+            <div>
+              <img
+                style="width: 25px; height: auto"
+                src="./image/owl logo.png"
+                alt=""
+              />
+            </div>
+            <div>
+              <p style="font-size: 12px; color: rgb(88, 86, 86)">
+                © 2026 Tripadvisor LLC All rights reserved.
+              </p>
+            </div>
+          </div>
+          <div class="footer-two-3" style="margin: 1% 0%; padding: 0% 7%">
+            <a href="" style="padding-right: 2%">Terms of Use</a>
+            <a href="" style="padding-right: 2%"
+              >Privacy and Cookies Statement</a
+            >
+            <a href="" style="padding-right: 2%">Cookie consent</a>
+            <a href="" style="padding-right: 2%">How the site works</a>
+            <a href="" style="padding-right: 2%">Contact us</a>
+            <a href="">Accessibility Statement</a>
+          </div>
+          <p style="font-size: 13px">
+            This is the version of our website addressed to speakers of English
+            in India. If you are a resident of another country or region, please
+            select the appropriate version of Tripadvisor for your country or
+            region in the drop-down menu.....
+          </p>
+        </div>
+        <div class="footer-two-4">
+          <input type="text" placeholder="Currency details" />
+          <input type="text" placeholder="Country name" />
+          <div style="margin-top: 5%; text-align: right">
+            <a href="#" style="padding-right: 7%"
+              ><i
+                class="fa-brands fa-facebook fa-lg"
+                style="color: rgb(0, 0, 0)"
+              ></i
+            ></a>
+            <a href="" style="padding-right: 7%"
+              ><i
+                class="fa-brands fa-x-twitter fa-lg"
+                style="color: rgb(0, 0, 0)"
+              ></i
+            ></a>
+            <a href="" style="padding-right: 7%"
+              ><i
+                class="fa-brands fa-pinterest fa-lg"
+                style="color: rgb(0, 0, 0)"
+              ></i
+            ></a>
+            <a href="" style="padding-right: 7%"
+              ><i
+                class="fa-brands fa-instagram fa-lg"
+                style="color: rgb(0, 0, 0)"
+              ></i
+            ></a>
+            <a href="" style="padding-right: 7%"
+              ><i
+                class="fa-brands fa-youtube fa-lg"
+                style="color: rgb(0, 0, 0)"
+              ></i
+            ></a>
+            <a href=""
+              ><i
+                class="fa-brands fa-tiktok fa-lg"
+                style="color: rgb(0, 0, 0)"
+              ></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Add Javascript File -->
+    <script src="./script.js"></script>
+  </body>
 </html>
