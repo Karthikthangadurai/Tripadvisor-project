@@ -433,7 +433,7 @@ header {
 .final-one button {
   margin-top: 10px;
   border: none;
-  background-color: #ffc56f;
+  background-color: #254be0;
   padding: 13px 20px;
   border-radius: 20px;
   font-weight: bold;
@@ -442,7 +442,7 @@ header {
 }
 
 .final-one button:hover {
-  background-color: #efad4a;
+  background-color: #cb8a27;
 }
 
 .final-two {
